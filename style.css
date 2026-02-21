@@ -1,0 +1,126 @@
+/*common style start */
+
+.font-32{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.font-40{
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.font-21{
+    font-size: 21px;
+    font-weight: 600;
+}
+
+.font-20{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.container-bg-color{
+    background-color: white;
+    border-radius: 17px;
+    padding: 14px;
+}
+
+.background-color-1 {
+    background-color: #8dc6ac;
+}
+    
+
+/* common style end */
+
+
+
+.head-main-section {
+    padding: 5px 165px 10px 165px;
+    background-color: #38404c3b;
+}
+
+/* header style start */
+
+/* nav section style start */
+
+.nav-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}   
+
+.nav-section .nav-button{
+    padding: 16px 37px;
+    font-size: 18px;
+    background-color: #edeef0;
+    color: #318f17;
+    border: 1px solid #318f17;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* nav section style end */
+
+/* banner section style start */
+
+.banner-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 50px;
+    gap: 8px;
+    padding: 15px;
+}
+
+ .banner-description-container {
+    height: 400px;
+    width: 44%;
+    margin: 44px 30px 0px 111px;
+}
+
+.header-banner-title{
+    font-size: 25px;
+    font-weight: bold;
+    font-weight: #5d697e;
+    margin-bottom: -20px;
+}
+
+.header-banner-description{
+    font-size: 52px;
+    font-weight: bold;
+    margin-bottom: 41px;
+}
+
+.header-banner-button{
+    background-color: green;
+    border: 1px solid green;
+    color: white;
+    font-weight: bold;
+    border-radius: 15px;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.banner-img-container{
+    height: 400px;
+    margin-right: 37px;
+}
+
+/* banner section style end */
+
+/* pillar section style start */
+
+.pillar-title{
+   margin-top: 70px;
+}
+
+.pillar-containers{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 98px;
+    padding: 5px;
+}
+/* piller section style end */
