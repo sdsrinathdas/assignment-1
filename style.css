@@ -203,11 +203,20 @@
     cursor: pointer;
 }
 
+.vision-profile{
+    margin-bottom: 60px
+}
+
 .vision-profile-container{
     background-image: url("assets/quote-bg.png");
     background-size : 79px 65px;;
     background-position: top 20px left 67px;
     background-repeat: no-repeat;
+}
+
+.opinion .opinion-table{
+    width: 100%;
+    border-collapse: collapse;
 }
 
 
