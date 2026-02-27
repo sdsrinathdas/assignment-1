@@ -22,9 +22,12 @@
 }
 
 .bottom-13{
-    padding: 5px 13px;
+    padding: 12px 28px;
     background-color: #318f17;
     border-radius: 10px;
+    color: whitesmoke;
+    font-size: 16px;
+    font-weight: bold;
 }
 .bottom-11{
     padding: 5px 11px;
@@ -37,7 +40,7 @@
 
 .font-20{
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 600;
     color: rgb(117, 119, 122);
 }
 
@@ -49,6 +52,8 @@
 
 .background-color-1 {
     background-color: #8dc6ac;
+    border-radius: 17px;
+    padding: 14px;
 }
     
 
@@ -130,6 +135,8 @@
 }
 
 /* banner section style end */
+
+/* main section start */
 
 /* pillar section style start */
 
@@ -214,11 +221,222 @@
     background-repeat: no-repeat;
 }
 
+
+/* opinion section start */
+
+.opinion-table-container table{
+    height: 450px;
+}
+
+.opinion{
+    margin-bottom: 150px;
+}
+
 .opinion .opinion-table{
     width: 100%;
     border-collapse: collapse;
+
 }
 
+.opinion-table tr, .opinion-table td{
+    border: 1px solid rgb(169, 133, 133);
+}
+
+.opinion-table th, .opinion-table td {
+    padding: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.opinion .opinion-table-border{
+    border: 1px solid rgb(188, 150, 150);
+    background-color:rgb(153, 237, 192)
+}
+
+.opinion-table-border>th{
+    text-align: start;
+    font-size: 22px;
+}
+
+.opinion-table-border .opinion-select{
+    text-align: center;
+    font-size: 22px;
+}
+
+.opinion-table select{
+    padding: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border: 2px solid black;
+}
+
+.opinion-table .select-margin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* opinion section end */
 
 
 /* vision section style end */
+
+/* news section style start */
+
+.jazera-news{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    gap: 50px;
+}
+
+.jazera-news .jazera-headline{
+    margin-top: 0px 
+}
+
+.jazera-img{
+    width: 603px;
+    height: 323px;
+}
+
+.jazera-img .jazera-news-img{
+    width: 100%;
+    height: 100%;
+    border-radius: 45px;
+}
+
+.jazera-news-content{
+    padding: 10px;
+}
+
+.jazera-date-time{
+    margin: 27px 0px;
+}
+
+.jazera-news-container{
+    margin-bottom: 20px;
+}
+
+/* news section style end */
+
+/* donate section style start */
+
+.donate .donate-heading, .donate-description{
+    text-align: center;
+}
+
+.donate-taka{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.donate-taka h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+    height: 55px;
+}
+
+.donate-taka-container{
+    text-align: center;
+}
+
+ .donate-other-taka{
+    width: 72%;
+    margin-top: 20px;
+    height: 55px;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+}
+
+.donate-total-taka:hover{
+    background-color: #80cf6a;
+    color: whitesmoke
+}
+.donate-other-taka{
+    margin-bottom: 30px;
+}
+
+input::placeholder{
+    text-align: center;
+}
+
+.donate-more{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* donete scetion style end */
+
+
+/* newslatter scetion style start */
+
+.newslatter{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscribe-newslatter{
+
+    text-align: center;
+}
+
+/* .subscribe-newslatter h2{
+    margin-top: 25px;
+} */
+
+.subscribe-input{
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscribe-input input{
+    display: block;
+    width: 90%;
+    height: 20px;
+    padding: 14px;
+    border: none;
+}
+
+.subscribe-input button{
+    border: none;
+    padding: 14px;
+    cursor: pointer;
+    background-color: #318f17;
+}
+
+.subscribe-input input::placeholder{
+    text-align: start;
+}
+
+/* newslatter scetion style start */
+
+/* main section end */
+
+/* footer section start */
+
+.bd-ing-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+footer{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+footer h3{
+    display: inline-block;
+}
+
+/*footer secrion end */
